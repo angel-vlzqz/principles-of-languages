@@ -1,2 +1,5 @@
+loom video:
 https://www.loom.com/share/103770ebeace4f89b22bd0ff8c16776a?sid=ab266dec-287f-4a73-adcb-e38c002eddd8
 
+github link:
+https://github.com/angel-vlzqz/principles-of-languages/tree/main/Programming%20Language
