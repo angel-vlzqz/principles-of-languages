@@ -1,0 +1,4 @@
+write the context-text free grammar and develop a PDA for a binary alphabet
+to recognize the language that has twice as many 1s as 0's.
+
+S -> 0S1S1 | 1S0S1 | 1S1S0 | SS | epsilon

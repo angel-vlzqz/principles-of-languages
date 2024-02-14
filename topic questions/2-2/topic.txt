@@ -1,0 +1,57 @@
+Provide two simple examples for each using C++ code:
+syntax errors, semantic errors, and logical errors in a program.
+
+Syntax errors:
+- Missing semicolon at the end of a statement
+int main()
+{
+  int x = 5
+  return 0;
+}
+
+- Misspelling a keyword
+int main()
+{
+  int x = 5;
+  retrun 0;
+}
+
+Semantic errors:
+- Using the wrong variable in an expression
+int main()
+{
+  int x = 5;
+  int y = 10;
+  int z = x + t;
+  return 0;
+}
+
+- Using the wrong operator in an expression
+int main()
+{
+  int x = 5;
+  int y = 10;
+  int z = x && y;
+  return 0;
+}
+
+Logical errors:
+- Using the wrong formula in a calculation
+int main()
+{
+  int x = 5;
+  int y = 10;
+  int z = x + y + 1;
+  return 0;
+}
+
+- Using the wrong condition in an if statement
+int main()
+{
+  int x = 5;
+  int y = 10;
+  if (x > y) {
+    cout << "x is less than y";
+  }
+  return 0;
+}

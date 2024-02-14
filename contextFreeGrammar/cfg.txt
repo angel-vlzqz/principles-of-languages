@@ -1,0 +1,11 @@
+The set of strings over the alphabet {a, b} with more a's than b's.
+aibi | aibi is the string for equal number of a's and b's.
+ai | a is the string for more a's than b's.
+epsilon = {aibi | aibi | ai | a}
+
+the compliment of the language {an bn | n > 0}
+the compliment of L should start with b and end in a, or end with b if it
+starts with a
+S -> {bA | Aa | aSb}
+A -> {aA | bA | epsilon}
+
