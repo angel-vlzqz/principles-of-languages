@@ -1,7 +1,7 @@
-(defun length-tail-recursive (lst &optional (acc 0))
+(defun length-tail (lst &optional (acc 0))
   (if (endp lst)
       acc
-      (length-tail-recursive (cdr lst) (+ acc 1))))
+      (length-tail (cdr lst) (+ acc 1))))
 
 (defun min-max (lst) 
     (let ((min (car lst)) (max (car lst))) 
@@ -34,7 +34,7 @@
 ;; Test cases
 (format t "Test Case 1: Length of list~%")
 (let ((test-list '(1 2 4 5)))
-  (format t "Length of ~a is ~a~%" test-list (length-tail-recursive test-list)))
+  (format t "Length of ~a is ~a~%" test-list (length-tail test-list)))
 
 (format t "~%Test Case 2: Find Max and Min~%")
 (let ((test-list '(4 2 7 1 9)))
