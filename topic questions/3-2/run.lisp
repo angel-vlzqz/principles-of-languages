@@ -19,7 +19,7 @@
 (setq roots (root 1 -3 2))
 (print roots)
 
-;; tes tcase 1.2
+;; test case 1.2
 (setq roots (root 3 -8 -11))
 (print roots)
 
