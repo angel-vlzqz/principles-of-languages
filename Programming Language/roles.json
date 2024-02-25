@@ -1,0 +1,404 @@
+{
+  "package": "None",
+  "imports": [
+    {
+      "path": "java.util.Enumeration",
+      "static": "False",
+      "wildcard": "False"
+    },
+    {
+      "path": "java.util.Hashtable",
+      "static": "False",
+      "wildcard": "False"
+    }
+  ],
+  "types": [
+    {
+      "modifiers": "{'public'}",
+      "annotations": [],
+      "documentation": "None",
+      "name": "Main",
+      "body": [
+        {
+          "documentation": "None",
+          "modifiers": "{'public', 'static'}",
+          "annotations": [],
+          "type_parameters": "None",
+          "return_type": "None",
+          "name": "main",
+          "parameters": [
+            {
+              "modifiers": "set()",
+              "annotations": [],
+              "type": {
+                "name": "String",
+                "dimensions": [
+                  "None"
+                ],
+                "arguments": "None",
+                "sub_type": "None"
+              },
+              "name": "args",
+              "varargs": "False"
+            }
+          ],
+          "throws": "None",
+          "body": [
+            {
+              "modifiers": "set()",
+              "annotations": [],
+              "type": {
+                "name": "Hashtable",
+                "dimensions": [],
+                "arguments": [
+                  {
+                    "type": {
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  },
+                  {
+                    "type": {
+                      "name": "Integer",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  }
+                ],
+                "sub_type": "None"
+              },
+              "declarators": [
+                {
+                  "name": "hashtable",
+                  "dimensions": [],
+                  "initializer": {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "type": {
+                      "name": "Hashtable",
+                      "dimensions": "None",
+                      "arguments": [],
+                      "sub_type": "None"
+                    },
+                    "constructor_type_arguments": "None",
+                    "arguments": [],
+                    "body": "None"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "None",
+              "expression": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"A\""
+                  },
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "1"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "label": "None",
+              "expression": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"B\""
+                  },
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "2"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "label": "None",
+              "expression": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"C\""
+                  },
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "3"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "modifiers": "set()",
+              "annotations": [],
+              "type": {
+                "name": "int",
+                "dimensions": []
+              },
+              "declarators": [
+                {
+                  "name": "valueA",
+                  "dimensions": [],
+                  "initializer": {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "hashtable",
+                    "selectors": [],
+                    "type_arguments": "None",
+                    "arguments": [
+                      {
+                        "prefix_operators": [],
+                        "postfix_operators": [],
+                        "qualifier": "None",
+                        "selectors": [],
+                        "value": "\"A\""
+                      }
+                    ],
+                    "member": "get"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "None",
+              "expression": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "System.out",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "operator": "+",
+                    "operandl": {
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "None",
+                      "selectors": [],
+                      "value": "\"Value of A: \""
+                    },
+                    "operandr": {
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "",
+                      "selectors": [],
+                      "member": "valueA"
+                    }
+                  }
+                ],
+                "member": "println"
+              }
+            },
+            {
+              "label": "None",
+              "expression": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"B\""
+                  }
+                ],
+                "member": "remove"
+              }
+            },
+            {
+              "modifiers": "set()",
+              "annotations": [],
+              "type": {
+                "name": "Enumeration",
+                "dimensions": [],
+                "arguments": [
+                  {
+                    "type": {
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  }
+                ],
+                "sub_type": "None"
+              },
+              "declarators": [
+                {
+                  "name": "keys",
+                  "dimensions": [],
+                  "initializer": {
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "hashtable",
+                    "selectors": [],
+                    "type_arguments": "None",
+                    "arguments": [],
+                    "member": "keys"
+                  }
+                }
+              ]
+            },
+            {
+              "label": "None",
+              "condition": {
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "keys",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [],
+                "member": "hasMoreElements"
+              },
+              "body": {
+                "label": "None",
+                "statements": [
+                  {
+                    "modifiers": "set()",
+                    "annotations": [],
+                    "type": {
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "declarators": [
+                      {
+                        "name": "key",
+                        "dimensions": [],
+                        "initializer": {
+                          "prefix_operators": [],
+                          "postfix_operators": [],
+                          "qualifier": "keys",
+                          "selectors": [],
+                          "type_arguments": "None",
+                          "arguments": [],
+                          "member": "nextElement"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "label": "None",
+                    "expression": {
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "System.out",
+                      "selectors": [],
+                      "type_arguments": "None",
+                      "arguments": [
+                        {
+                          "operator": "+",
+                          "operandl": {
+                            "operator": "+",
+                            "operandl": {
+                              "operator": "+",
+                              "operandl": {
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "None",
+                                "selectors": [],
+                                "value": "\"Key: \""
+                              },
+                              "operandr": {
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "",
+                                "selectors": [],
+                                "member": "key"
+                              }
+                            },
+                            "operandr": {
+                              "prefix_operators": [],
+                              "postfix_operators": [],
+                              "qualifier": "None",
+                              "selectors": [],
+                              "value": "\", Value: \""
+                            }
+                          },
+                          "operandr": {
+                            "prefix_operators": [],
+                            "postfix_operators": [],
+                            "qualifier": "hashtable",
+                            "selectors": [],
+                            "type_arguments": "None",
+                            "arguments": [
+                              {
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "",
+                                "selectors": [],
+                                "member": "key"
+                              }
+                            ],
+                            "member": "get"
+                          }
+                        }
+                      ],
+                      "member": "println"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "type_parameters": "None",
+      "extends": "None",
+      "implements": "None"
+    }
+  ]
+}
