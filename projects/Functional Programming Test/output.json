@@ -1,0 +1,459 @@
+{
+  "type": "<class 'javalang.tree.CompilationUnit'>",
+  "package": "None",
+  "imports": [
+    {
+      "type": "<class 'javalang.tree.Import'>",
+      "path": "java.util.Enumeration",
+      "static": "False",
+      "wildcard": "False"
+    },
+    {
+      "type": "<class 'javalang.tree.Import'>",
+      "path": "java.util.Hashtable",
+      "static": "False",
+      "wildcard": "False"
+    }
+  ],
+  "types": [
+    {
+      "type": "<class 'javalang.tree.ClassDeclaration'>",
+      "modifiers": "{'public'}",
+      "annotations": [],
+      "documentation": "None",
+      "name": "Main",
+      "body": [
+        {
+          "type": "<class 'javalang.tree.MethodDeclaration'>",
+          "documentation": "None",
+          "modifiers": "{'public', 'static'}",
+          "annotations": [],
+          "type_parameters": "None",
+          "return_type": "None",
+          "name": "main",
+          "parameters": [
+            {
+              "type": {
+                "type": "<class 'javalang.tree.ReferenceType'>",
+                "name": "String",
+                "dimensions": [
+                  "None"
+                ],
+                "arguments": "None",
+                "sub_type": "None"
+              },
+              "modifiers": "set()",
+              "annotations": [],
+              "name": "args",
+              "varargs": "False"
+            }
+          ],
+          "throws": "None",
+          "body": [
+            {
+              "type": {
+                "type": "<class 'javalang.tree.ReferenceType'>",
+                "name": "Hashtable",
+                "dimensions": [],
+                "arguments": [
+                  {
+                    "type": {
+                      "type": "<class 'javalang.tree.ReferenceType'>",
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  },
+                  {
+                    "type": {
+                      "type": "<class 'javalang.tree.ReferenceType'>",
+                      "name": "Integer",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  }
+                ],
+                "sub_type": "None"
+              },
+              "modifiers": "set()",
+              "annotations": [],
+              "declarators": [
+                {
+                  "type": "<class 'javalang.tree.VariableDeclarator'>",
+                  "name": "hashtable",
+                  "dimensions": [],
+                  "initializer": {
+                    "type": {
+                      "type": "<class 'javalang.tree.ReferenceType'>",
+                      "name": "Hashtable",
+                      "dimensions": "None",
+                      "arguments": [],
+                      "sub_type": "None"
+                    },
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "constructor_type_arguments": "None",
+                    "arguments": [],
+                    "body": "None"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "<class 'javalang.tree.StatementExpression'>",
+              "label": "None",
+              "expression": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"A\""
+                  },
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "1"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "type": "<class 'javalang.tree.StatementExpression'>",
+              "label": "None",
+              "expression": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"B\""
+                  },
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "2"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "type": "<class 'javalang.tree.StatementExpression'>",
+              "label": "None",
+              "expression": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"C\""
+                  },
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "3"
+                  }
+                ],
+                "member": "put"
+              }
+            },
+            {
+              "type": {
+                "type": "<class 'javalang.tree.BasicType'>",
+                "name": "int",
+                "dimensions": []
+              },
+              "modifiers": "set()",
+              "annotations": [],
+              "declarators": [
+                {
+                  "type": "<class 'javalang.tree.VariableDeclarator'>",
+                  "name": "valueA",
+                  "dimensions": [],
+                  "initializer": {
+                    "type": "<class 'javalang.tree.MethodInvocation'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "hashtable",
+                    "selectors": [],
+                    "type_arguments": "None",
+                    "arguments": [
+                      {
+                        "type": "<class 'javalang.tree.Literal'>",
+                        "prefix_operators": [],
+                        "postfix_operators": [],
+                        "qualifier": "None",
+                        "selectors": [],
+                        "value": "\"A\""
+                      }
+                    ],
+                    "member": "get"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "<class 'javalang.tree.StatementExpression'>",
+              "label": "None",
+              "expression": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "System.out",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "type": "<class 'javalang.tree.BinaryOperation'>",
+                    "operator": "+",
+                    "operandl": {
+                      "type": "<class 'javalang.tree.Literal'>",
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "None",
+                      "selectors": [],
+                      "value": "\"Value of A: \""
+                    },
+                    "operandr": {
+                      "type": "<class 'javalang.tree.MemberReference'>",
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "",
+                      "selectors": [],
+                      "member": "valueA"
+                    }
+                  }
+                ],
+                "member": "println"
+              }
+            },
+            {
+              "type": "<class 'javalang.tree.StatementExpression'>",
+              "label": "None",
+              "expression": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "hashtable",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [
+                  {
+                    "type": "<class 'javalang.tree.Literal'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "None",
+                    "selectors": [],
+                    "value": "\"B\""
+                  }
+                ],
+                "member": "remove"
+              }
+            },
+            {
+              "type": {
+                "type": "<class 'javalang.tree.ReferenceType'>",
+                "name": "Enumeration",
+                "dimensions": [],
+                "arguments": [
+                  {
+                    "type": {
+                      "type": "<class 'javalang.tree.ReferenceType'>",
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "pattern_type": "None"
+                  }
+                ],
+                "sub_type": "None"
+              },
+              "modifiers": "set()",
+              "annotations": [],
+              "declarators": [
+                {
+                  "type": "<class 'javalang.tree.VariableDeclarator'>",
+                  "name": "keys",
+                  "dimensions": [],
+                  "initializer": {
+                    "type": "<class 'javalang.tree.MethodInvocation'>",
+                    "prefix_operators": [],
+                    "postfix_operators": [],
+                    "qualifier": "hashtable",
+                    "selectors": [],
+                    "type_arguments": "None",
+                    "arguments": [],
+                    "member": "keys"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "<class 'javalang.tree.WhileStatement'>",
+              "label": "None",
+              "condition": {
+                "type": "<class 'javalang.tree.MethodInvocation'>",
+                "prefix_operators": [],
+                "postfix_operators": [],
+                "qualifier": "keys",
+                "selectors": [],
+                "type_arguments": "None",
+                "arguments": [],
+                "member": "hasMoreElements"
+              },
+              "body": {
+                "type": "<class 'javalang.tree.BlockStatement'>",
+                "label": "None",
+                "statements": [
+                  {
+                    "type": {
+                      "type": "<class 'javalang.tree.ReferenceType'>",
+                      "name": "String",
+                      "dimensions": [],
+                      "arguments": "None",
+                      "sub_type": "None"
+                    },
+                    "modifiers": "set()",
+                    "annotations": [],
+                    "declarators": [
+                      {
+                        "type": "<class 'javalang.tree.VariableDeclarator'>",
+                        "name": "key",
+                        "dimensions": [],
+                        "initializer": {
+                          "type": "<class 'javalang.tree.MethodInvocation'>",
+                          "prefix_operators": [],
+                          "postfix_operators": [],
+                          "qualifier": "keys",
+                          "selectors": [],
+                          "type_arguments": "None",
+                          "arguments": [],
+                          "member": "nextElement"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "<class 'javalang.tree.StatementExpression'>",
+                    "label": "None",
+                    "expression": {
+                      "type": "<class 'javalang.tree.MethodInvocation'>",
+                      "prefix_operators": [],
+                      "postfix_operators": [],
+                      "qualifier": "System.out",
+                      "selectors": [],
+                      "type_arguments": "None",
+                      "arguments": [
+                        {
+                          "type": "<class 'javalang.tree.BinaryOperation'>",
+                          "operator": "+",
+                          "operandl": {
+                            "type": "<class 'javalang.tree.BinaryOperation'>",
+                            "operator": "+",
+                            "operandl": {
+                              "type": "<class 'javalang.tree.BinaryOperation'>",
+                              "operator": "+",
+                              "operandl": {
+                                "type": "<class 'javalang.tree.Literal'>",
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "None",
+                                "selectors": [],
+                                "value": "\"Key: \""
+                              },
+                              "operandr": {
+                                "type": "<class 'javalang.tree.MemberReference'>",
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "",
+                                "selectors": [],
+                                "member": "key"
+                              }
+                            },
+                            "operandr": {
+                              "type": "<class 'javalang.tree.Literal'>",
+                              "prefix_operators": [],
+                              "postfix_operators": [],
+                              "qualifier": "None",
+                              "selectors": [],
+                              "value": "\", Value: \""
+                            }
+                          },
+                          "operandr": {
+                            "type": "<class 'javalang.tree.MethodInvocation'>",
+                            "prefix_operators": [],
+                            "postfix_operators": [],
+                            "qualifier": "hashtable",
+                            "selectors": [],
+                            "type_arguments": "None",
+                            "arguments": [
+                              {
+                                "type": "<class 'javalang.tree.MemberReference'>",
+                                "prefix_operators": [],
+                                "postfix_operators": [],
+                                "qualifier": "",
+                                "selectors": [],
+                                "member": "key"
+                              }
+                            ],
+                            "member": "get"
+                          }
+                        }
+                      ],
+                      "member": "println"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "type_parameters": "None",
+      "extends": "None",
+      "implements": "None"
+    }
+  ]
+}
